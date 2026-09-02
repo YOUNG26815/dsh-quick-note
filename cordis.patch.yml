@@ -1,0 +1,4 @@
+# dsh-quick-note bundle patch: mounts the plugin row into the web profile roster.
+- insert:
+    - id: dsh-quick-note
+      name: dsh-quick-note
