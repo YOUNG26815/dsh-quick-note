@@ -1,0 +1,40 @@
+{
+  "name": "dsh-quick-note",
+  "version": "0.1.0",
+  "description": "灵感速记 · Quick Notes：你和 AI 共用的速记本 —— 对 AI 说「帮我把这个想法记下来」，随时搜索、随时翻看",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "notes",
+    "quick-note",
+    "clipboard",
+    "memory"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUNG26815/dsh-quick-note.git"
+  }
+}
